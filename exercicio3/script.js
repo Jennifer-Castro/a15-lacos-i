@@ -17,8 +17,8 @@ const maioresPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"];
 
 
 const arraySalada = ['agrião', 'rúcula', 'espinafre', 'couve','brócolis']
-for(let i = 0; i<arraySalada.length; i++){
-   console.log(`${i} - ${arraySalada[i]}`)
+for(let i = 0; i < arraySalada.length; i++){
+   console.log(`${i+1} - ${arraySalada[i]}`)
 }
 
 

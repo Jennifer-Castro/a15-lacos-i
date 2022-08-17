@@ -10,5 +10,5 @@ Crie um programa que peça um input de número para o usuário. Com este número
 let num = prompt('Por favor, informe um número. Vamos criar uma tabuada!')
     for(let i = 1; i <=10; i++){ 
         let tabuada = num*i
-    console.log(`\n ${num}x${i} = ${tabuada}`)
+    console.log(`${num}x${i} = ${tabuada}`)
 }
